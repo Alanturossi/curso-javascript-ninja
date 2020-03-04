@@ -143,13 +143,13 @@ carro.obterCor() // Verde musgo
 carro.obterMarca() // Fiat
 
 // Adicione 2 pessoas no carro.
-carro.passageiros(2)
+carro.passageiros(2) // Já temos 2 pessoas no carro.
 
 // Adicione mais 4 pessoas no carro.
-carro.passageiros(4)
+carro.passageiros(4) // Só cabem mais 3 pessoas!
 
 // Faça o carro encher.
-carro.passageiros(3)
+carro.passageiros(3) // O Carro está Lotado !
 
 // Tire 4 pessoas do carro.
 carro.quantidadePessoas = 2;
